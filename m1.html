@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kempegowda International Airport</title>
+    <link rel="stylesheet" href="m1.css">
+
+    <style></style>
+</head>
+
+<body>
+
+    <header>
+
+        <h2>Kempegowda International Airport</h2>
+        <p>Bengaluru, India</p>
+
+        <nav>
+            <a href="book.html">BOOKING</a>
+            <a href="pnr.html">PNR Status</a>
+            <a href="cont.html">CONTACT</a>
+        </nav>
+
+    </header>
+
+    <div class="search-container">
+
+        <div class="search-box">
+            <label>Flight Number</label>
+            <input type="text" placeholder="Ex: AI747">
+        </div>
+
+        <div class="search-box">
+            <label>Destination</label>
+            <input type="text" placeholder="City Name">
+        </div>
+
+        <div class="search-box">
+            <label>Flight Type</label>
+            <select>
+                <option>All</option>
+                <option>Arrival</option>
+                <option>Departure</option>
+            </select>
+        </div>
+
+        <div class="search-btn">
+            <button>Search Flight</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="info">
+
+            <div>
+                <h4>Total Flights</h4>
+                <p>72 Today</p>
+            </div>
+
+            <div>
+                <h4>Passengers</h4>
+                <p>12,500+</p>
+            </div>
+
+            <div>
+                <h4>Terminals</h4>
+                <p>1 , 2 , 3 , 4 ... 8</p>
+            </div>
+
+            <div>
+                <h4>Security Level</h4>
+                <p style="color: green;">Normal</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <h3>International Flights (Next 4 Hours)</h3>
+
+            <table>
+
+                <tr>
+                    <th>Airline</th>
+                    <th>Flight</th>
+                    <th>Destination</th>
+                    <th>Terminal</th>
+                    <th>Status</th>
+                    <th>Time</th>
+                    <th>Remark</th>
+                </tr>
+
+                <tr>
+                    <td>Air India</td>
+                    <td>AL745</td>
+                    <td>AMSTERDAM</td>
+                    <td>2</td>
+                    <td>Departure</td>
+                    <td>11:30</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>Air India</td>
+                    <td>AL747</td>
+                    <td>ZURICH</td>
+                    <td>3</td>
+                    <td>Departure</td>
+                    <td>11:45</td>
+                    <td class="ontime"> On Time</td>
+                </tr>
+                <tr>
+                    <td>Indigo</td>
+                    <td>BQ91</td>
+                    <td>DUBAI</td>
+                    <td>1</td>
+                    <td>Arrival</td>
+                    <td>11:50</td>
+                    <td class="delay">Delay</td>
+                </tr>
+                <tr>
+                    <td>Allince Air</th>
+                    <td>AA473</th>
+                    <td>DOHA</th>
+                    <td>4</th>
+                    <td>Departure</th>
+                    <td>12:00</th>
+                    <td class="ontime">On Time</th>
+                </tr>
+                <tr>
+                    <td>Air India</th>
+                    <td>AL981</th>
+                    <td>BERLIN</th>
+                    <td>3</th>
+                    <td>Departure</th>
+                    <td>12:15</th>
+                    <td class="ontime">On Time</th>
+                </tr>
+                <tr>
+                    <td>Delta</td>
+                    <td>DE152</td>
+                    <td>LOS ANGELES</td>
+                    <td>5</td>
+                    <td>Arrival</td>
+                    <td>12:25</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>Emirats</td>
+                    <td>EU515</td>
+                    <td>ABU DHABI</td>
+                    <td>2</td>
+                    <td>Departure</td>
+                    <td>12:37</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>United</td>
+                    <td>TK99</td>
+                    <td>EDINBURGH</td>
+                    <td>5</th>
+                    <td>Departure</td>
+                    <td>13:00</td>
+                    <td class="delay">Delay</td>
+                </tr>
+                <tr>
+                    <td>Air India</th>
+                    <td>AL745</th>
+                    <td>MOSCOW</th>
+                    <td>4</th>
+                    <td>Departure</th>
+                    <td>13:17</th>
+                    <td class="delay">Delay</th>
+                </tr>
+                <tr>
+                    <td>Air France</td>
+                    <td>AF562</td>
+                    <td>PARIS</td>
+                    <td>3</td>
+                    <td>Arrival</td>
+                    <td>13:25</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>Lufthanzas</td>
+                    <td>LZ333</td>
+                    <td>MELBORN</td>
+                    <td>5</td>
+                    <td>Arrival</td>
+                    <td>13:28</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>Indigo</td>
+                    <td>BQ88</td>
+                    <td>ROME</td>
+                    <td>2</td>
+                    <td>Departure</td>
+                    <td>13:45</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+
+                <tr>
+                    <td>IndiGo</td>
+                    <td>6E91</td>
+                    <td>DUBAI</td>
+                    <td>1</td>
+                    <td>Departure</td>
+                    <td>13:55</td>
+                    <td class="delay">Delayed</td>
+                </tr>
+
+                <tr>
+                    <td>Turkish </td>
+                    <td>TK99</td>
+                    <td>LONDON</td>
+                    <td>2</td>
+                    <td>Departure</td>
+                    <td>14:20</td>
+                    <td class="delay">Delayed</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Domestic Flights (Next 3 Hours)</h3>
+
+            <table>
+
+                <tr>
+                    <th>Airline</th>
+                    <th>Flight</th>
+                    <th>Destination</th>
+                    <th>Terminal</th>
+                    <th>Status</th>
+                    <th>Time</th>
+                    <th>Remark</th>
+                </tr>
+
+                <tr>
+                    <td>Air India</td>
+                    <td>AL547</td>
+                    <td>KOLKATA</td>
+                    <td>6</td>
+                    <td>Arrival</td>
+                    <td>11:45</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+
+                <tr>
+                    <td>IndiGo</td>
+                    <td>6E51</td>
+                    <td>DELHI</td>
+                    <td>7</td>
+                    <td>Departure</td>
+                    <td>11:50</td>
+                    <td class="delay">Delayed</td>
+                </tr>
+
+                <tr>
+                    <td>Allince Air</th>
+                    <td>AA453</th>
+                    <td>JODHPUR</th>
+                    <td>6</th>
+                    <td>Departure</th>
+                    <td>12:20</th>
+                    <td class="ontime">On Time</th>
+                </tr>
+                <tr>
+                    <td>Air India Ex</th>
+                    <td>AE341</th>
+                    <td>LUCKNOW</th>
+                    <td>8</th>
+                    <td>Arrival</th>
+                    <td>12:45</th>
+                    <td class="delay">Delay</th>
+                </tr>
+                <tr>
+                    <td>Indigo</td>
+                    <td>QB352</td>
+                    <td>MUMBAI</td>
+                    <td>6</td>
+                    <td>Arrival</td>
+                    <td>12:50</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>Indigo</td>
+                    <td>QB515</td>
+                    <td>AHEMDABAD</td>
+                    <td>8</td>
+                    <td>Departure</td>
+                    <td>12:59</td>
+                    <td class="delay">Delay</td>
+                </tr>
+                <tr>
+                    <td>SpiceJet</td>
+                    <td>SU923</td>
+                    <td>PUNE</td>
+                    <td>6</th>
+                    <td>Arrival</td>
+                    <td>13:15</td>
+                    <td class="delay">Delay</td>
+                </tr>
+                <tr>
+                    <td>Air India Ex</th>
+                    <td>AE745</th>
+                    <td>VADODRA</th>
+                    <td>7</th>
+                    <td>Departure</th>
+                    <td>13:47</th>
+                    <td class="delay">Delay</th>
+                </tr>
+                <tr>
+                    <td>Air India</td>
+                    <td>AL562</td>
+                    <td>SHIMLA</td>
+                    <td>6</td>
+                    <td>Arrival</td>
+                    <td>13:55</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>Air India Ex</td>
+                    <td>AE333</td>
+                    <td>CHENNAI</td>
+                    <td>8</td>
+                    <td>Arrival</td>
+                    <td>14:20</td>
+                    <td class="delay">Delay</td>
+                </tr>
+                <tr>
+                    <td>Akasa</td>
+                    <td>AK118</td>
+                    <td>KOZHIKODE</td>
+                    <td>8</td>
+                    <td>Departure</td>
+                    <td>14:35</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>Alliance Air</td>
+                    <td>AA348</td>
+                    <td>VARANASI</td>
+                    <td>7</td>
+                    <td>Departure</td>
+                    <td>14:50</td>
+                    <td class="delay">Delay</td>
+                </tr>
+                <tr>
+                    <td>Indigo</td>
+                    <td>BQ38</td>
+                    <td>JAIPUR</td>
+                    <td>8</td>
+                    <td>Arrival</td>
+                    <td>15:10</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>Indigo</td>
+                    <td>BQ85</td>
+                    <td>GUWAHATI</td>
+                    <td>6</td>
+                    <td>Departure</td>
+                    <td>15:59</td>
+                    <td class="ontime">On Time</td>
+                </tr>
+                <tr>
+                    <td>SpiceJet</td>
+                    <td>SU338</td>
+                    <td>INDORE</td>
+                    <td>7</td>
+                    <td>Departure</td>
+                    <td>16:20</td>
+                    <td class="delay">Delay</td>
+                </tr>
+
+                <tr>
+                    <td>SpiceJet</td>
+                    <td>SJ929</td>
+                    <td>JALGAON</td>
+                    <td>8</td>
+                    <td>Arrival</td>
+                    <td>16:30</td>
+                    <td class="delay">Delayed</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="footer-grid">
+
+            <div>
+                <h4>About</h4>
+                <p>Kempegowda International Airport is one of India's busiest airports serving millions of passengers
+                    every year.</p>
+            </div>
+
+            <div>
+                <h4>Services</h4>
+                <a href="m1.html">Flight Status</a>
+                <a href="book.html">Online Booking</a>
+                <a href="pnr.html">PNR Check</a>
+                <a href="cont.html">Passenger Help</a>
+            </div>
+
+            <div>
+                <h4>Authority</h4>
+                <p>DGCA Approved</p>
+                <p>Airport Authority of India</p>
+                <p>Aero Community</p>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            <p>© 2026 Kempegowda International Airport | All Rights Reserved</p>
+            <p><i>© Created By @Sai_Kakani 7972909038 </i></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
